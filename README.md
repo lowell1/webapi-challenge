@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Middleware and routers
+
 - [ ] Describe Middleware?
+
+Middleware are functions that happen before the request handler function and they can modify parts of the request or cancel the request
 
 - [ ] Describe a Resource?
 
+A resource is a file that you can put the path to in app.use with a url and it will use the file when a request is made to the url.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+Status code 200
+
 - [ ] How can we partition our application into sub-applications?
+
+With routers
 
 ## Project Setup
 
